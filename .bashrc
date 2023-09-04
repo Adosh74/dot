@@ -9,7 +9,7 @@
 #    4) .bashrc imports .bashrc_custom, which can be used to override
 #        variables specified here.
 #           
-
+[[ $- == *i* ]] && source ~/ble.sh/out/ble.sh --noattach
 set +x
 
 git_branch() {
@@ -137,3 +137,4 @@ else
     fi) '$Cyan'\w'$Color_Off''$NewLine''$Red'▶ '$Color_Off'"; \
   fi)'
 fi
+[[ ${BLE_VERSION-} ]] && ble-attach
