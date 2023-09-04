@@ -1,0 +1,10 @@
+-x md:bash
+--exclude=./{out,dist,tmp,ext}
+--exclude=./?.sh
+--exclude=./test/install
+--exclude=./ble.sh
+GNUmakefile
+ble.pp
+blerc.template
+lib/core-syntax-ctx.def
+lib/core-decode.*-rlfunc.txt

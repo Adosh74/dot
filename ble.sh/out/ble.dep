@@ -1,0 +1,57 @@
+out/ble.sh: ble.pp \
+  src/def.sh \
+  src/util.sh \
+  src/util.hook.sh \
+  src/benchmark.sh \
+  src/decode.sh \
+  src/color.sh \
+  src/canvas.sh \
+  src/canvas.c2w.sh \
+  src/canvas.emoji.sh \
+  src/canvas.c2w.musl.sh \
+  src/canvas.GraphemeClusterBreak.sh \
+  src/history.sh \
+  src/edit.sh \
+  lib/core-cmdspec-def.sh \
+  lib/core-syntax-def.sh \
+  lib/core-complete-def.sh \
+  lib/core-debug-def.sh \
+  contrib/integration/bash-preexec-def.sh
+ble.pp:
+
+src/def.sh:
+
+src/util.sh:
+
+src/util.hook.sh:
+
+src/benchmark.sh:
+
+src/decode.sh:
+
+src/color.sh:
+
+src/canvas.sh:
+
+src/canvas.c2w.sh:
+
+src/canvas.emoji.sh:
+
+src/canvas.c2w.musl.sh:
+
+src/canvas.GraphemeClusterBreak.sh:
+
+src/history.sh:
+
+src/edit.sh:
+
+lib/core-cmdspec-def.sh:
+
+lib/core-syntax-def.sh:
+
+lib/core-complete-def.sh:
+
+lib/core-debug-def.sh:
+
+contrib/integration/bash-preexec-def.sh:
+

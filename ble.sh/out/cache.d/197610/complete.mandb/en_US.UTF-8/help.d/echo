@@ -1,0 +1,3 @@
+-e enable interpretation of the following backslash escapes
+-E explicitly suppress interpretation of backslash escapes
+-n do not append a newline
