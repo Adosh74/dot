@@ -16,6 +16,10 @@ git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
 }
 
+# Docker
+alias dup="docker-compose up -d --build"
+alias ddown="docker-compose down"
+
 # Safety
 alias rm="rm -i"
 alias mv="mv -i"
