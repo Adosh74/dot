@@ -38,6 +38,7 @@ findfile () {
 }
 
 # Docker
+alias dps="docker ps -a"
 alias dup="docker-compose up -d --build"
 alias ddown="docker-compose down"
 
