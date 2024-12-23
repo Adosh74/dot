@@ -37,6 +37,9 @@ findfile () {
   find . -iname "*$1*" -print
 }
 
+# Docker
+alias dup="docker-compose up -d --build"
+
 # k8s
 alias k="kubectl"
 
