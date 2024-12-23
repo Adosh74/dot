@@ -37,6 +37,9 @@ findfile () {
   find . -iname "*$1*" -print
 }
 
+# k8s
+alias k="kubectl"
+
 # Git
 alias clean='git clean -xdf'
 alias clone='git clone'
