@@ -39,6 +39,7 @@ findfile () {
 
 # Docker
 alias dup="docker-compose up -d --build"
+alias ddown="docker-compose down"
 
 # k8s
 alias k="kubectl"
